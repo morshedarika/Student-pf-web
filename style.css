@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #a12323b9;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(picture/student.jpg);
+}
+.navbar {
+    height: 82px;
+    width: 1422px;
+    margin: auto;
+    background-color: #a95d815e;
+}
+.icon h2 {
+    width: 241px;
+    font-size: 40px;
+    padding-left: 47px;
+    padding-top: 17px;
+    color: white;
+}
+.menu {
+    width: 104px;
+    height: 48px;
+    padding-left: 770px;
+    padding-top: 3px;
+    color: white;
+    font-size: 32px;
+}
+.menu h2 {
+    font-size: 43px;
+    text-align: center;
+    margin-top: -23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu ul li {
+    list-style: none;
+    line-height: -8px;
+    margin-left: 25px;
+    font-size: 16px;
+    margin-top: -54px;
+    margin-right: -8px;
+}
+.menu ul li a{  
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4 ease;
+    width: 85px;
+    float: left;
+}
+ul li a:hover{
+    color: rgb(255, 115, 161);
+}
+.contain{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+    padding-top: 100px;
+}
+.contain span{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contain h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contain .pera {
+    margin-top: 5px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contain .pera span {
+    color: #ef1364;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.contain .bn {
+    color: #ffffff;
+    width: 115px;
+    height: 34px;
+    background: rgb(177, 50, 71);
+    margin-top: 50px;
+    border: 1px solid #962e41;
+    border-radius: 10px;
+    transition: .3px ease;
+}
+.contain .bn a{
+    color: aliceblue;
+    transition: .4s ease;
+    text-decoration: none;
+}
+.bn:hover{
+    background-color: #361b46;
+    color: #ff0936;
+}
+section{
+    width: 500px;
+}
+.moreandmore {
+    float: left;
+    width: 100%;
+}
+#Education {
+    float: left;
+    width: 290px;
+    background-color: #962e41;
+    margin-left: 139px;
+    padding: 10px;
+    margin-top: 80px;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 235px;
+}
+#teacher{
+    width: 290px;
+    background-color: #962e41;
+    margin-left: 139px;
+    padding: 10px;
+    margin-top: 80px;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 235px;
+    float: left;
+
+}
+#student{
+    width: 290px;
+    background-color: #962e41;
+    margin-left: 139px;
+    padding: 10px;
+    margin-top: 80px;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 235px;
+    float: left;
+
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.half-width p {
+    font-size: 16px;
+    padding: 14px;
+    color: white;
+}
+.half-width i {
+    font-size: 66px;
+    padding-bottom: 15px;
+    padding-left: 107px;
+}
+.snd-main{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(picture/bg.jpg);
+
+}
+.snd-main h2 {
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif ;
+    border-bottom: 3px solid rgba(107, 12, 28, 0.178);
+}
+#cetg {
+    width: 245px;
+    background-color: #ffffff;
+    margin-left: 145px;
+    padding: 10px;
+    margin-top: 73px;
+    border: 1px solid;
+    border-radius: 28px;
+    height: 289px;
+    float: left;
+}
+.more{
+
+}
+.more h3 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #c9c9c9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.more ul {
+    padding-left: 14px;
+    padding-top: 15px;
+    font-size: 17px;
+}
+.more ul li {
+    list-style: none;
+    padding: 2px;
+    margin: 1px;
+    border-bottom: 1px solid #d1bfbf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.more ul li a {
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.more ul li a:hover{
+    color: #9e2239;
+}
+.more .but {
+    text-decoration: none;
+    width: 242px;
+    height: 38px;
+    border: none;
+    margin-top: 32px;
+    border-radius: 16px;
+    background:  #9e2239;
+}
+.more .but a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.more .but:hover{
+    background: rgb(12, 6, 6);
+}
+#new {
+    width: 277px;
+    background-color: #ffffff;
+    margin-left: 517px;
+    margin-top: -344px;
+    border-radius: 26px;
+    height: 278px;
+    float: left;
+}
+.online img {
+    width: 277px;
+    height: 158px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.online h3 {
+    font-size: 21px;
+    text-align: center;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.online p {
+    text-align: justify;
+    padding: 12px;
+    color: rgba(8, 6, 6, 0.582);
+}
+#teach {
+    width: 277px;
+    background-color: #ffffff;
+    margin-left: 819px;
+    margin-top: -344px;
+    border-radius: 31px;
+    height: 277px;
+    float: left;
+}
+#higher{
+    width: 277px;
+    background-color: #ffffff;
+    margin-left: 517px;
+    margin-top: -44px;
+    border-radius: 26px;
+    height: 278px;
+    float: left;
+}
+#train{
+    width: 277px;
+    background-color: #ffffff;
+    margin-left: 819px;
+    margin-top: -277px;
+    border-radius: 31px;
+    height: 277px;
+    float: left;
+
+}
+.trd-main{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(picture/gra.jpg);
+
+}
+.apply {
+    float: left;
+    width: 457px;
+    background-color: #20151557;
+    margin-left: 157px;
+    padding: 30px;
+    margin-top: 80px;
+    height: 130px;
+}
+.apply h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+}
+.apply p {
+    font-size: 13px;
+    padding: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+.apply .bun{
+    color: #ffffff;
+    width: 115px;
+    height: 34px;
+    background: rgb(219, 32, 63);
+    margin-top: 10px;
+    border: 1px solid #962e41;
+    border-radius: 15px;
+    transition: .3px ease;
+
+}
+.apply .bun a{
+    color: aliceblue;
+    transition: .4s ease;
+    text-decoration: none;
+}
+.bun:hover{
+    transition: .4s ease;
+    text-decoration: none;
+    background: #0a0909;
+
+}
+.apply .now{
+    color: #ffffff;
+    width: 115px;
+    height: 34px;
+    background: rgba(233, 229, 13, 0.795);
+    margin-top: 10px;
+    border: 1px solid #962e41;
+    border-radius: 15px;
+    transition: .3px ease;
+}
+.apply .now a{
+    color: aliceblue;
+    transition: .4s ease;
+    text-decoration: none;
+}
+.now:hover{
+    transition: .4s ease;
+    text-decoration: none;
+    background: #0a0909;
+
+}
+.about {
+    float: left;
+    width: 460px;
+    background-color: #fff6f6;
+    margin-left: 74px;
+    padding: 31px;
+    margin-top: -193px;
+    height: 406px;
+    border-radius: 40px;
+    border: 2px solid wheat;
+}
+.about h2 {
+    padding: 39px;
+    color: rgb(219 32 63);
+}
+.about p {
+    padding: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about span {
+    color: #f5002d;
+    font-size: 20px;
+}
+.about h3 {
+    padding: 17px;
+    font-size: 30px;
+    color: #c3c35e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
